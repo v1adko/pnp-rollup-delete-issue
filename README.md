@@ -1,6 +1,6 @@
 # Rollup plugin delete issue
 
-Reproduction repository showcasing issue with [rollup-plugin-delete](https://github.com/vladshcherbin/rollup-plugin-delete) with nested target in yarn2 PnP
+Reproduction repository showcasing issue with [rollup-plugin-delete](https://github.com/vladshcherbin/rollup-plugin-delete/issues/13) with nested target in yarn2 PnP
 
 ---
 When `target` to be removed contains _nested folder_ AND if the repository is utilizing [Yarn2 and Plug'n'Play](https://yarnpkg.com/features/pnp) the build fails
