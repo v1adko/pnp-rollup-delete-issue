@@ -27,7 +27,11 @@ TypeError: Cannot destructure property 'withFileTypes' of '(intermediate value)(
 In the `targets` config option specify an array as follows: `["dist2/**/*", "dist2/*"]` (order matters)
 
 ---
-#### Alternative solution -> downgrade to v1.2.0
+#### Alternative solution
+Ditch the plugin and for build script do `rimraf ./dist && rollup -c`
+
+---
+#### Alternative solution 2 -> downgrade to v1.2.0
 
 `yarn add -D rollup-plugin-delete@1.2.0`
 
