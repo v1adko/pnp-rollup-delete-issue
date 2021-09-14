@@ -1,10 +1,20 @@
 {
-  "name": "react-modal-rtl",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "name": "@shiphero/ui-library",
+  "version": "1.0.13",
+  "main": "dist/ui-library.cjs.js",
+  "module": "dist/ui-library.es.js",
+  "types": "dist/types/index.d.ts",
+  "repository": "git@github.com:Shiphero/frontend.git",
+  "author": "Shiphero",
+  "license": "UNLICENSED",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-delete": "^2.0.0"
+  }
 }
